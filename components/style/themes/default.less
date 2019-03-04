@@ -6,19 +6,29 @@
 
 // -------- Palette ----------
 
-@caya-blue: #00bbff;
+@caya-action-color: #00bbff;
 @caya-black: #333a40;
-@caya-white: #ffffff;
-@caya-creme: #f7f9fb;
+@caya-darkish-blue: #02478c;
+@caya-ice: #eaebeb;
+@caya-light-grass-green: #9df458;
+@caya-pale-blue: #dfe4eb;
+@caya-pale-grey-two: #f3f6fa;
 @caya-pale-grey: #fafbfd;
+@caya-secondary-color: #f7f9fb;
+@caya-tealish-dark: #21a6bd;
+@caya-tealish-light: #30ceb7;
+@caya-water-blue: #1394c7;
+@caya-weird-green: #36dd85;
+@caya-white: #ffffff;
+@caya-red: #ff7733;
 
 // -------- Colors -----------
-@primary-color: @caya-blue;
-@info-color: @blue-6;
-@success-color: @green-6;
-@processing-color: @blue-6;
-@error-color: @red-6;
-@highlight-color: @red-6;
+@primary-color: @caya-action-color;
+@info-color: @caya-action-color;
+@success-color: @caya-action-color;
+@processing-color: @caya-darkish-blue;
+@error-color: @caya-red;
+@highlight-color: @caya-red;
 @warning-color: @gold-6;
 @normal-color: #d9d9d9;
 @white: @caya-white;
@@ -46,12 +56,12 @@
 @body-background: #fff;
 // Base background color for most components
 @component-background: #fff;
-@font-family: 'Chinese Quote', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
-  'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif,
-  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+@font-family: 'Roboto', sans-serif, 'Chinese Quote', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial,
+  sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 @code-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
 @heading-color: fade(#000, 85%);
-@text-color: fade(@black, 65%);
+@text-color: @black;
 @text-color-secondary: fade(@black, 45%);
 @text-color-inverse: @white;
 @icon-color-hover: fade(@black, 75%);
